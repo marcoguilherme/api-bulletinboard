@@ -1,9 +1,9 @@
 //Inportacao das dependencias usadas
-var express = require('express');
-var bodyParser = require('body-parser');
-var consign = require('consign');
+const express = require('express');
+const bodyParser = require('body-parser');
+const consign = require('consign');
 
-var app = express();
+const app = express();
 
 //Configuracao do body-parser
 app.use(bodyParser.urlencoded({ extended: false }))
