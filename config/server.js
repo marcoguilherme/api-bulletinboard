@@ -13,6 +13,7 @@ consign()
     .include('app/routes')
     .then('app/models')
     .then('app/controllers')
+    .then('config/database.js')
     .into(app);
 
 
