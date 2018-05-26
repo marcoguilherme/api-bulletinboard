@@ -10,9 +10,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 consign()
-    .include('app/routes')
-    .then('app/models')
-    .then('app/controllers')
+    .include('api/routes')
+    .then('api/models')
+    .then('api/controllers')
     .then('config/database.js')
     .into(app);
 
