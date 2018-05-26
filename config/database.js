@@ -2,13 +2,13 @@
 
  var connDb = function(){
     var db = mongodb.Db(
-        'api-todolist', //Nome da collection
+        'api-bulletinboard', //Collection name
         new mongodb.Server(
-            'localhost', //host do banco
-            '27017', //Porta do banco
-            {} //Configuracoes opcionais do servidor
+            'localhost', //hostname
+            '27017', //port number
+            {} //database misc
         ),
-        {} //Configuracoes opcionais
+        {} //Setup misc
     );
     return db;
  }

@@ -1,5 +1,5 @@
 {
-  "name": "api-todolist",
+  "name": "api-bulletin-board",
   "version": "1.0.0",
   "description": "Rest API of Bulletin Board",
   "main": "index.js",

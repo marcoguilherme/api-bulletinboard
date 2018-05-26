@@ -1,11 +1,11 @@
-//Inportacao das dependencias usadas
+//Dependencies used
 const express = require('express');
 const bodyParser = require('body-parser');
 const consign = require('consign');
 
 const app = express();
 
-//Configuracao do body-parser
+//bodyParser config
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
