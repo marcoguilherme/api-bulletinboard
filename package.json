@@ -1,7 +1,7 @@
 {
   "name": "api-todolist",
   "version": "1.0.0",
-  "description": "Api de um aplicativo de controle de tarefas",
+  "description": "Rest API of Bulletin Board",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,21 +9,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcoguilherme/api-todolist.git"
+    "url": "git+https://github.com/marcoguilherme/api-bulletinboard.git"
   },
   "keywords": [
     "API",
     "REST",
     "NODE",
     "MONGODB",
-    "SIMPLES"
+    "SIMPLE",
+    "TODO",
+    "LIST",
+    "BOARD",
+    "NOTES"
   ],
   "author": "Marco Guilherme B. Martins",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marcoguilherme/api-todolist/issues"
+    "url": "https://github.com/marcoguilherme/api-bulletinboard/issues"
   },
-  "homepage": "https://github.com/marcoguilherme/api-todolist#readme",
+  "homepage": "https://github.com/marcoguilherme/api-bulletinboard#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "consign": "^0.1.6",
