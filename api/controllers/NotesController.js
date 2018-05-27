@@ -5,9 +5,10 @@ exports.getNotes = function(app, req, res){
     
 }
 exports.newNote = function(app, req, res){
+    let note = req.body;
     let database = app.config.database;
     let NotesModel = new app.api.models.NotesModel(database);
-    NotesModel.newNote(res);
+    NotesModel.newNote(note, res);
 }
 exports.editNote = function(app, req, res){
     res.send('Ok')
