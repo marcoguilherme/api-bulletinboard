@@ -11,9 +11,9 @@ app.use(bodyParser.json())
 
 consign()
     .include('api/routes')
+    .then('config/database.js')
     .then('api/models')
     .then('api/controllers')
-    .then('config/database.js')
     .into(app);
 
 
