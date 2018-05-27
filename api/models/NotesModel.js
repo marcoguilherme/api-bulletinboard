@@ -15,6 +15,9 @@ NotesModel.prototype.allNotes = function(res){
         })
     })
 }
+NotesModel.prototype.newNote = function(req, res){
+    
+}
 
 module.exports = function(){
     return NotesModel;
