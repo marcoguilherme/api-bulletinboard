@@ -4,7 +4,7 @@ module.exports = function(app){
          app.api.controllers.NotesController.getNotes(app, req, res);
     })
     app.post('/note', function(req, res){
-        app.api.controllers.NotesController.newNote(app, req, res);
+         app.api.controllers.NotesController.newNote(app, req, res);
     })
     app.put('/note/:id', function(req, res){
         app.api.controllers.NotesController.editNote(app, req, res);
