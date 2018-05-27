@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcoguilherme/api-bulletinboard.git"
+    "url": "git+git@github.com:marcoguilherme/api-bulletinboard.git"
   },
   "keywords": [
     "API",
